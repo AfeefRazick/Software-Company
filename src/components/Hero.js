@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div className="hero-container">
       <h1>Welcome to Bogus Corporation</h1>
-      <p>We are a company that truly, doesnt exist</p>
+      <p>We are a company that truly, doesn't exist</p>
       <div className="hero-btns">
         <Button
           className="btn"

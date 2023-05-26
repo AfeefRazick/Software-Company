@@ -1,5 +1,6 @@
 :root {
   --primary: white;
+  --secondary: black;
 }
 
 .btn {
@@ -20,6 +21,13 @@
   background-color: transparent;
   color: white;
   border: 1px solid var(--primary);
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+.btn-nav {
+  background-color: transparent;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
   padding: 8px 20px;
   transition: all 0.3s ease-out;
 }
@@ -45,4 +53,9 @@
   .play-icon {
     color: rgb(66, 33, 255);
   }
+}
+.btn-nav:hover {
+  background: black;
+  color: white;
+  transition: all 0.3s ease-out;
 }

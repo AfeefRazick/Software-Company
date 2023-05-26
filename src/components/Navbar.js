@@ -40,7 +40,11 @@ function Navbar() {
             <FaBars className="menu-icon fa-bars" onClick={handleClick} />
           )}
           {show && (
-            <FaTimes className="menu-icon" color="red" onClick={handleClick} />
+            <FaTimes
+              className="menu-icon"
+              color="black"
+              onClick={handleClick}
+            />
           )}
           <ul className={show ? "nav-menu active" : "nav-menu"}>
             {mainLinks.map((mainlink) => {
@@ -63,7 +67,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn-outline">Sign Up</Button>}
+          {button && <Button buttonStyle="btn-nav">Sign Up</Button>}
         </div>
       </nav>
     </>
