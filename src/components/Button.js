@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const STYLES = ["btn-primary", "btn-outline"];
 const SIZES = ["btn-medium", "button-large"];
 
-const Button = ({ buttonText, type, onClick, buttonStyle, buttonSize }) => {
+const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
@@ -18,7 +18,7 @@ const Button = ({ buttonText, type, onClick, buttonStyle, buttonSize }) => {
         onClick={onClick}
         type={type}
       >
-        {buttonText}
+        {children}
       </button>
     </Link>
   );
