@@ -5,14 +5,21 @@ import { Link } from "react-router-dom";
 const STYLES = ["btn-primary", "btn-outline", "btn-nav"];
 const SIZES = ["btn-medium", "button-large"];
 
-const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
+const Button = ({
+  children,
+  type,
+  onClick,
+  buttonStyle,
+  buttonSize,
+  linkpath,
+}) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to="/" className="btn-mobile">
+    <Link to={linkpath} className="btn-mobile">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

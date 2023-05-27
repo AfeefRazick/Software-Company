@@ -50,7 +50,11 @@ function Navbar() {
             {mainLinks.map((mainlink) => {
               return (
                 <li key={mainlink.id} className="nav-item">
-                  <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                  <Link
+                    to={mainlink.url}
+                    className="nav-links"
+                    onClick={closeMobileMenu}
+                  >
                     {mainlink.text}
                   </Link>
                 </li>
@@ -67,7 +71,11 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn-nav">Sign Up</Button>}
+          {button && (
+            <Button linkpath="/sign-up" buttonStyle="btn-nav">
+              Sign Up
+            </Button>
+          )}
         </div>
       </nav>
     </>
