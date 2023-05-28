@@ -1,6 +1,3 @@
-* {
-  font-family: "Quicksand", sans-serif;
-}
 a {
   text-decoration: none;
   color: black;
@@ -9,6 +6,7 @@ body {
   margin: 0;
 }
 * {
+  font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,17 +14,21 @@ body {
 :root {
   --color1: black;
   --color2: white;
+  --color3: #242424;
 }
 
 .home,
 .services,
 .products,
 .sign-up,
-.about-us {
+.about-us,
+.resources {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
+
   font-size: 3rem;
 }
 
@@ -40,6 +42,14 @@ body {
 }
 
 .products {
+  background-image: url("../public/images/room.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.resources {
   background-image: url("../public/images/room.jpg");
   background-position: center;
   background-size: cover;

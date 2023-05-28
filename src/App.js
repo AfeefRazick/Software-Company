@@ -1,11 +1,10 @@
 import React from "react";
-import { v4 as uuidv4 } from "uuid";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import mainLinks from "./LinkNames";
 import Home from "./components/pages/Home";
-import Services from "./components/pages/Services";
 import SignUp from "./components/pages/SignUp";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -36,7 +35,10 @@ export default function App() {
           })}
           <Route path="/sign-up" element={<SignUp />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
 }
+
+// component that generates pages

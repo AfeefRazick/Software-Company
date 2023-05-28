@@ -8,21 +8,23 @@ function Hero() {
   return (
     <div className="hero-container">
       <h1>Welcome to Bogus Corporation</h1>
-      <p>We are a company that truly, doesn't exist</p>
+      <p>We help create impactful digital products</p>
+      <p></p>
       <div className="hero-btns">
         <Button
           className="btn"
           buttonStyle="btn-outline"
           buttonSize="btn-large"
         >
-          Get Started
+          Let's Talk
+          <FaPlay />
         </Button>
         <Button
           className="btn"
           buttonStyle="btn-primary"
           buttonSize="btn-large"
         >
-          Watch
+          See our work
           <FaPlay className="play-icon" />
         </Button>
       </div>

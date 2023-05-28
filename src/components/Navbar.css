@@ -43,10 +43,10 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 8px;
   list-style: none;
   text-align: center;
-  width: 50vw;
+  width: 52vw;
   justify-content: end;
   margin-right: 2rem;
 }

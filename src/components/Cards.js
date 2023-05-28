@@ -5,28 +5,40 @@ import "./Cards.css";
 export default function Cards() {
   return (
     <div className="cards">
-      <h2>Look at these cool things</h2>
+      <h2>Our Products</h2>
       <div className="cards-container">
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
-              src="images/room.jpg"
+              src="images/healthcare.avif"
               text="a bag of water poured down the "
-              label="pooper"
+              label="Healthcare"
               path="/services"
             />
             <CardItem
-              src="images/room.jpg"
+              src="images/finance.png"
               text="a bag of water poured down the whole and i ae it"
-              label="pooper"
+              label="Finance"
               path="/services"
             />
           </ul>
-          <ul className="cards-items">
+          <ul className="cards-items large">
             <CardItem
               src="images/room.jpg"
               text="a bag of water poured down the "
-              label="pooper"
+              label="Retail"
+              path="/services"
+            />
+            <CardItem
+              src="images/room.jpg"
+              text="a bag of water poured down the "
+              label="Education"
+              path="/services"
+            />
+            <CardItem
+              src="images/room.jpg"
+              text="a bag of water poured down the "
+              label="Telco"
               path="/services"
             />
           </ul>

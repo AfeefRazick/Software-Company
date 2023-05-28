@@ -9,6 +9,7 @@ img {
 .hero-container {
   background: url("/public/images/layered-waves-haikei.svg") center center/cover
     no-repeat;
+
   height: 100vh;
   min-height: 768px;
   width: 100%;
@@ -19,11 +20,13 @@ img {
   object-fit: contain;
 }
 .hero-container > h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   color: yellow;
   font-size: 80px;
+  margin: 0px 80px;
   margin-top: 60px;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .hero-container > p {
@@ -31,8 +34,8 @@ img {
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-  margin: 30px;
+  margin: 20px 0 0 80px;
+  align-self: flex-start;
 }
 .hero-btns {
   margin-top: 40px;
@@ -44,12 +47,22 @@ img {
 
 .play-icon {
   margin-left: 8px;
+  position: relative;
+  top: 2px;
+
   font-size: 18px;
 }
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
+    margin-left: 60px;
     margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .hero-container > p {
+    font-size: 30px;
+    margin-left: 60px;
     margin-bottom: 20px;
   }
 }
@@ -57,12 +70,14 @@ img {
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
     font-size: 50px;
+    margin-left: 40px;
     margin-top: 30px;
     margin-bottom: 10px;
   }
 
   .hero-container > p {
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 40px;
     margin-bottom: 20px;
   }
   .hero-btns {
