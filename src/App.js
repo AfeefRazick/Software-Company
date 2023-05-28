@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import mainLinks from "./LinkNames";
 import Home from "./components/pages/Home";
@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Navbar />
 
         <Routes>
@@ -36,7 +36,7 @@ export default function App() {
           <Route path="/sign-up" element={<SignUp />}></Route>
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
