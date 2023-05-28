@@ -1,7 +1,7 @@
 import React from "react";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
-import SignUp from "./components/pages/SignUp";
+import Careers from "./components/pages/Careers";
 import AboutUs from "./components/pages/AboutUs";
 import Resources from "./components/pages/Resources";
 const mainLinks = [
@@ -119,7 +119,7 @@ const mainLinks = [
         id: 4.2,
         url: "/careers",
         text: "Careers",
-        rfcname: "Careers",
+        rfcname: Careers,
       },
       {
         id: 4.3,

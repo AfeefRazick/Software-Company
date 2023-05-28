@@ -11,7 +11,7 @@ img {
     no-repeat;
   background-attachment: fixed;
   background-color: black;
-  height: 90svh;
+  height: 90dvh;
   min-height: 600px;
   width: 100%;
   display: flex;
@@ -96,6 +96,32 @@ img {
   .hero-btns {
     margin-top: 30px;
     margin-left: 34px;
+  }
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .hero-container > p {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .hero-btns {
+    margin-top: 30px;
+    margin-left: 14px;
   }
   .btn-mobile {
     display: block;

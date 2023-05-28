@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import mainLinks from "./LinkNames";
 import Home from "./components/pages/Home";
-import SignUp from "./components/pages/SignUp";
+import Careers from "./components/pages/Careers";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -33,7 +33,7 @@ export default function App() {
               </Route>
             );
           })}
-          <Route path="/sign-up" element={<SignUp />}></Route>
+          <Route path="/careers" element={<Careers />}></Route>
         </Routes>
         <Footer />
       </Router>

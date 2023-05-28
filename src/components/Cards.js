@@ -38,7 +38,7 @@ export default function Cards() {
             />
             <CardItem
               src="images/telco.webp"
-              text="Driving Connectivity and Efficiency with Innovative Telco Solutions."
+              text="Driving Connectivity and Efficiency with Innovative Telco Solutions"
               label="Telco"
               path="/products"
             />

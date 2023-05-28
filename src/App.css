@@ -23,7 +23,7 @@ body {
 .home,
 .services,
 .products,
-.sign-up,
+.careers,
 .about-us,
 .resources {
   display: flex;
@@ -61,12 +61,12 @@ body {
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url("../public/images/room.jpg");
+.careers {
+  background-image: url("../public/images/workculture.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: yellow;
   font-size: 100px;
 }
 .about-us {
@@ -76,4 +76,14 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+@media screen and (max-width: 600px) {
+  .home,
+  .services,
+  .products,
+  .sign-up,
+  .about-us,
+  .resources {
+    font-size: 50px;
+  }
 }

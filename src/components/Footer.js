@@ -41,7 +41,7 @@ export default function Footer() {
             <div key={uuidv4()} className="footer-link-wrapper">
               {sublist.map((mainlink) => {
                 return (
-                  <div className="footer-link-items">
+                  <div key={uuidv4()} className="footer-link-items">
                     <h2>{mainlink.text}</h2>
                     {mainlink.subLinks.map((sublink) => {
                       return (
