@@ -2,12 +2,19 @@
   box-sizing: border-box;
 }
 .cards {
-  padding: 4rem;
+  padding: 4rem 0;
   background: #fff;
 }
 
 h2 {
   text-align: center;
+  font-size: 2rem;
+}
+
+.cards h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0;
 }
 
 .cards-container {

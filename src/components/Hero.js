@@ -3,13 +3,12 @@ import "../App.css";
 import Button from "./Button.js";
 import "./Hero.css";
 import { FaPlay } from "react-icons/fa";
-
+import { BsSend } from "react-icons/bs";
 function Hero() {
   return (
     <div className="hero-container">
-      <h1>Welcome to Bogus Corporation</h1>
-      <p>We help create impactful digital products</p>
-      <p></p>
+      <h1>We create impactful digital products</h1>
+      <p>Let our team of engineers bring your idea's to life</p>
       <div className="hero-btns">
         <Button
           className="btn"
@@ -17,7 +16,7 @@ function Hero() {
           buttonSize="btn-large"
         >
           Let's Talk
-          <FaPlay />
+          <BsSend className="send-icon" />
         </Button>
         <Button
           className="btn"

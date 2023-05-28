@@ -6,40 +6,41 @@ export default function Cards() {
   return (
     <div className="cards">
       <h2>Our Products</h2>
+      <h3>By Industry</h3>
       <div className="cards-container">
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
               src="images/healthcare.avif"
-              text="a bag of water poured down the "
+              text="Transforming Healthcare Through Technology "
               label="Healthcare"
-              path="/services"
+              path="/products"
             />
             <CardItem
               src="images/finance.png"
-              text="a bag of water poured down the whole and i ae it"
+              text="Leading the FinTech Revolution"
               label="Finance"
-              path="/services"
+              path="/products"
             />
           </ul>
           <ul className="cards-items large">
             <CardItem
-              src="images/room.jpg"
-              text="a bag of water poured down the "
-              label="Retail"
-              path="/services"
-            />
-            <CardItem
-              src="images/room.jpg"
-              text="a bag of water poured down the "
+              src="images/education.jpg"
+              text="Smart Solutions for Modern Education "
               label="Education"
-              path="/services"
+              path="/products"
             />
             <CardItem
-              src="images/room.jpg"
-              text="a bag of water poured down the "
+              src="images/retail.png"
+              text="Manage Rapid Growth with custom Software Solutions"
+              label="Retail"
+              path="/products"
+            />
+            <CardItem
+              src="images/telco.webp"
+              text="Driving Connectivity and Efficiency with Innovative Telco Solutions."
               label="Telco"
-              path="/services"
+              path="/products"
             />
           </ul>
         </div>

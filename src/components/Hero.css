@@ -9,9 +9,10 @@ img {
 .hero-container {
   background: url("/public/images/layered-waves-haikei.svg") center center/cover
     no-repeat;
-
-  height: 100vh;
-  min-height: 768px;
+  background-attachment: fixed;
+  background-color: black;
+  height: 90svh;
+  min-height: 600px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -25,8 +26,10 @@ img {
   color: yellow;
   font-size: 80px;
   margin: 0px 80px;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 20px;
+  text-align: left;
+  align-self: flex-start;
 }
 
 .hero-container > p {
@@ -36,28 +39,35 @@ img {
     "Lucida Sans", Arial, sans-serif;
   margin: 20px 0 0 80px;
   align-self: flex-start;
+  text-align: left;
 }
 .hero-btns {
   margin-top: 40px;
+  margin-left: 74px;
+  align-self: flex-start;
 }
 
 .hero-btns .btn {
   margin: 6px;
 }
 
-.play-icon {
+.play-icon,
+.send-icon {
   margin-left: 8px;
   position: relative;
   top: 2px;
 
   font-size: 18px;
 }
+.send-icon {
+  font-size: 20px;
+}
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
     margin-left: 60px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 30px;
   }
   .hero-container > p {
@@ -65,13 +75,16 @@ img {
     margin-left: 60px;
     margin-bottom: 20px;
   }
+  .hero-btns {
+    margin-left: 54px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
     font-size: 50px;
     margin-left: 40px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 10px;
   }
 
@@ -82,6 +95,7 @@ img {
   }
   .hero-btns {
     margin-top: 30px;
+    margin-left: 34px;
   }
   .btn-mobile {
     display: block;

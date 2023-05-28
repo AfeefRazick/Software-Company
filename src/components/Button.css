@@ -25,9 +25,10 @@
   transition: all 0.3s ease-out;
 }
 .btn-nav {
-  background-color: transparent;
+  background-color: yellow;
   color: var(--secondary);
-  border: 1px solid var(--secondary);
+  border: 1px solid yellow;
+  border-radius: 20px;
   padding: 8px 20px;
   transition: all 0.3s ease-out;
 }
@@ -57,12 +58,11 @@
   /* background-color: rgb(220, 220, 220); */
   background: yellow;
   color: var(--secondary);
-  .play-icon {
-  }
   border: 1px solid yellow;
 }
 .btn-nav:hover {
   background: black;
   color: white;
   transition: all 0.3s ease-out;
+  border: black;
 }

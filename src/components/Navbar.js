@@ -67,13 +67,13 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Careers
               </Link>
             </li>
           </ul>
           {button && (
             <Button linkpath="/sign-up" buttonStyle="btn-nav">
-              Sign Up
+              Careers
             </Button>
           )}
         </div>
