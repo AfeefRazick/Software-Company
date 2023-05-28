@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Software-Company/static/css/main.671992ab.css",
-    "main.js": "/Software-Company/static/js/main.4a57bcaa.js",
+    "main.css": "/Software-Company/static/css/main.b1678b4f.css",
+    "main.js": "/Software-Company/static/js/main.f063939e.js",
+    "static/media/workculture.jpg": "/Software-Company/static/media/workculture.3e818aba295eaa123d3f.jpg",
     "static/media/room.jpg": "/Software-Company/static/media/room.604a1b591bdca6b0e45d.jpg",
     "static/media/layered-waves-haikei.svg": "/Software-Company/static/media/layered-waves-haikei.4b68d7c614e075e286b5.svg",
     "index.html": "/Software-Company/index.html",
-    "main.671992ab.css.map": "/Software-Company/static/css/main.671992ab.css.map",
-    "main.4a57bcaa.js.map": "/Software-Company/static/js/main.4a57bcaa.js.map"
+    "main.b1678b4f.css.map": "/Software-Company/static/css/main.b1678b4f.css.map",
+    "main.f063939e.js.map": "/Software-Company/static/js/main.f063939e.js.map"
   },
   "entrypoints": [
-    "static/css/main.671992ab.css",
-    "static/js/main.4a57bcaa.js"
+    "static/css/main.b1678b4f.css",
+    "static/js/main.f063939e.js"
   ]
 }
