@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 .footer-subscription {
   display: flex;
@@ -80,6 +81,10 @@
   font-size: 24px;
   margin: 0px 5px;
 }
+.social-media-link:hover {
+  color: yellow;
+}
+
 .social-media {
   display: flex;
   flex-direction: column;
@@ -105,6 +110,9 @@
 }
 @media screen and (max-width: 500px) {
   .footer-links {
-    margin-left: 10px;
+    margin-left: 0px;
+  }
+  .footer-link-items {
+    margin: 10px 10px;
   }
 }

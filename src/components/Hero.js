@@ -8,11 +8,11 @@ function Hero() {
   return (
     <div className="hero-container">
       <h1>We create impactful digital products</h1>
-      <p>Let our team of engineers bring your idea's to life</p>
+      <p>Let our team of engineers bring your ideas to life</p>
       <div className="hero-btns">
         <Button
           className="btn"
-          buttonStyle="btn-outline"
+          buttonStyle="btn-primary"
           buttonSize="btn-large"
         >
           Let's Talk
@@ -20,7 +20,7 @@ function Hero() {
         </Button>
         <Button
           className="btn"
-          buttonStyle="btn-primary"
+          buttonStyle="btn-outline"
           buttonSize="btn-large"
         >
           See our work

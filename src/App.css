@@ -12,7 +12,7 @@ body {
   padding: 0;
 }
 #root {
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }
 :root {
   --color1: black;

@@ -5,11 +5,13 @@ import mainLinks from "./LinkNames";
 import Home from "./components/pages/Home";
 import Careers from "./components/pages/Careers";
 import Footer from "./components/Footer";
+import ScrollToTop from "./ScrollToTop";
 
 export default function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
 
         <Routes>

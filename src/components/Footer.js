@@ -17,11 +17,9 @@ export default function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Subscribe to this Newsletter
+          Sign Up for our Newsletter
         </p>
-        <p className="footer-subscription-text">
-          And you will recieve spam forever
-        </p>
+        <p className="footer-subscription-text">To receive weekly updates</p>
 
         <form className="input-areas">
           <input
@@ -31,7 +29,7 @@ export default function Footer() {
             className="footer-input"
           ></input>
           <Button buttonSize="btn-footer" buttonStyle="btn-outline">
-            Subscribe
+            Sign Up
           </Button>
         </form>
       </section>

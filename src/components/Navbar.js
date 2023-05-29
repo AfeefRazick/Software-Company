@@ -26,6 +26,13 @@ function Navbar() {
   useEffect(() => {
     showButton();
   }, []);
+  useEffect(() => {
+    if (show === true) {
+      document.body.classList.add("stop-scroll");
+    } else {
+      document.body.classList.remove("stop-scroll");
+    }
+  }, [show]);
   window.addEventListener("resize", showButton);
 
   return (

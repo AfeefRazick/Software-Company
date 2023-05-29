@@ -93,7 +93,8 @@
     height: 90vh;
     position: absolute;
     top: 70px;
-    left: -100%;
+    /* left: -100%; */
+    display: none;
     opacity: 1;
     transition: all 0.5s ease;
     margin: 0;
@@ -104,6 +105,7 @@
   .nav-menu.active {
     /* background: #242222; */
     background: #ebe2e2;
+    display: flex;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -139,7 +141,7 @@
     position: relative; /*absolute*/
     top: 0;
     right: 0;
-    margin-right: 20px; /*added*/
+    margin-right: 20px;
     /* transform: translate(-100%, 80%); */
     align-self: center;
     justify-self: end;
@@ -171,5 +173,9 @@
     background: var(--color1);
     color: var(--color2);
     transition: 250ms;
+  }
+  .stop-scroll {
+    height: 100%;
+    overflow: hidden;
   }
 }
