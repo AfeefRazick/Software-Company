@@ -95,8 +95,9 @@ h2 {
   transition: all 0.2s linear;
 }
 
-.cards-item-img:hover {
+.cards-item-pic-wrap:hover img {
   transform: scale(1.1);
+  -moz-transform: scale(1.1);
 }
 
 .cards-item-info {
