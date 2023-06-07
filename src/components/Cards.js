@@ -11,13 +11,13 @@ export default function Cards() {
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
-              src="images/healthcare.avif"
+              src={process.env.PUBLIC_URL + "/images/healthcare.avif"}
               text="Transforming Healthcare Through Technology "
               label="Healthcare"
               path="/products"
             />
             <CardItem
-              src="images/finance.png"
+              src={process.env.PUBLIC_URL + "/images/finance.png"}
               text="Leading the FinTech Revolution"
               label="Finance"
               path="/products"
@@ -25,19 +25,19 @@ export default function Cards() {
           </ul>
           <ul className="cards-items large">
             <CardItem
-              src="images/education.jpg"
+              src={process.env.PUBLIC_URL + "/images/education.jpg"}
               text="Smart Solutions for Modern Education "
               label="Education"
               path="/products"
             />
             <CardItem
-              src="images/retail.png"
+              src={process.env.PUBLIC_URL + "/images/retail.png"}
               text="Manage Rapid Growth with custom Software Solutions"
               label="Retail"
               path="/products"
             />
             <CardItem
-              src="images/telco.webp"
+              src={process.env.PUBLIC_URL + "/images/telco.webp"}
               text="Driving Connectivity and Efficiency with Innovative Telco Solutions"
               label="Telco"
               path="/products"
